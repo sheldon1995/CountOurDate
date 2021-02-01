@@ -15,7 +15,7 @@
 		9D56D41125C78E2900B659EC /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56D41025C78E2900B659EC /* EmojiProvider.swift */; };
 		9D56D41B25C7AC2200B659EC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56D41A25C7AC2200B659EC /* WidgetKit.framework */; };
 		9D56D41D25C7AC2200B659EC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D56D41C25C7AC2200B659EC /* SwiftUI.framework */; };
-		9D56D42025C7AC2200B659EC /* CountDatesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56D41F25C7AC2200B659EC /* CountDatesWidget.swift */; };
+		9D56D42025C7AC2200B659EC /* CountDatesWidiget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56D41F25C7AC2200B659EC /* CountDatesWidiget.swift */; };
 		9D56D42225C7AC2500B659EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D56D42125C7AC2500B659EC /* Assets.xcassets */; };
 		9D56D42625C7AC2500B659EC /* CountDatesWidigetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9D56D41825C7AC2200B659EC /* CountDatesWidigetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -56,7 +56,7 @@
 		9D56D41825C7AC2200B659EC /* CountDatesWidigetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CountDatesWidigetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D56D41A25C7AC2200B659EC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9D56D41C25C7AC2200B659EC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		9D56D41F25C7AC2200B659EC /* CountDatesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDatesWidget.swift; sourceTree = "<group>"; };
+		9D56D41F25C7AC2200B659EC /* CountDatesWidiget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDatesWidiget.swift; sourceTree = "<group>"; };
 		9D56D42125C7AC2500B659EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D56D42325C7AC2500B659EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,7 +134,7 @@
 		9D56D41E25C7AC2200B659EC /* CountDatesWidiget */ = {
 			isa = PBXGroup;
 			children = (
-				9D56D41F25C7AC2200B659EC /* CountDatesWidget.swift */,
+				9D56D41F25C7AC2200B659EC /* CountDatesWidiget.swift */,
 				9D56D42125C7AC2500B659EC /* Assets.xcassets */,
 				9D56D42325C7AC2500B659EC /* Info.plist */,
 			);
@@ -252,7 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D56D42025C7AC2200B659EC /* CountDatesWidget.swift in Sources */,
+				9D56D42025C7AC2200B659EC /* CountDatesWidiget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
