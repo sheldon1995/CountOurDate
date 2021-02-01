@@ -11,6 +11,8 @@
 		9D4DBF0C25C77D1C007F6C17 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DBF0B25C77D1C007F6C17 /* DateView.swift */; };
 		9D4DBF0E25C77D20007F6C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DBF0D25C77D20007F6C17 /* Assets.xcassets */; };
 		9D4DBF1125C77D20007F6C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DBF1025C77D20007F6C17 /* Preview Assets.xcassets */; };
+		9D56D40E25C78D5000B659EC /* EmojiDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56D40D25C78D5000B659EC /* EmojiDetails.swift */; };
+		9D56D41125C78E2900B659EC /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56D41025C78E2900B659EC /* EmojiProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9D4DBF0D25C77D20007F6C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4DBF1025C77D20007F6C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D4DBF1225C77D20007F6C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D56D40D25C78D5000B659EC /* EmojiDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetails.swift; sourceTree = "<group>"; };
+		9D56D41025C78E2900B659EC /* EmojiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				9D4DBF0D25C77D20007F6C17 /* Assets.xcassets */,
 				9D4DBF1225C77D20007F6C17 /* Info.plist */,
 				9D4DBF0F25C77D20007F6C17 /* Preview Content */,
+				9D56D40D25C78D5000B659EC /* EmojiDetails.swift */,
+				9D56D41025C78E2900B659EC /* EmojiProvider.swift */,
 			);
 			path = CountOurDate;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D4DBF0C25C77D1C007F6C17 /* DateView.swift in Sources */,
+				9D56D41125C78E2900B659EC /* EmojiProvider.swift in Sources */,
 				9D4DBF0A25C77D1C007F6C17 /* CountOurDateApp.swift in Sources */,
+				9D56D40E25C78D5000B659EC /* EmojiDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
